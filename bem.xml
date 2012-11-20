@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="bem">
+  <template name="b" value="{&#10;    block: '$blockName$',&#10;    content: $END$&#10;}" description="block" toReformat="false" toShortenFQNames="true">
+    <variable name="blockName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="PHP" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="b," value="{&#10;    block: '$blockName$',&#10;    content: $END$&#10;}," description="block with comma" toReformat="false" toShortenFQNames="true">
+    <variable name="blockName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="PHP" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="be," value="{&#10;    block: '$blockName$',&#10;    elem: '$elemName$',&#10;    content: $END$&#10;}," description="block + element + comma" toReformat="false" toShortenFQNames="true">
+    <variable name="blockName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="elemName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="PHP" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="be" value="{&#10;    block: '$blockName$',&#10;    elem: '$elemName$',&#10;    content: $END$&#10;}" description="block + element" toReformat="false" toShortenFQNames="true">
+    <variable name="blockName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="elemName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="PHP" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="e" value="{&#10;    elem: '$elemName$',&#10;    content: $END$&#10;}" description="element" toReformat="false" toShortenFQNames="true">
+    <variable name="elemName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="PHP" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="e," value="{&#10;    elem: '$elemName$',&#10;    content: $END$&#10;}," description="element + comma" toReformat="false" toShortenFQNames="true">
+    <variable name="elemName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="PHP" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="el," value="elem: '$elemName$',$END$" description="element in block + comma" toReformat="false" toShortenFQNames="true">
+    <variable name="elemName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+      <option name="HTML" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="HAML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="SQL" value="false" />
+      <option name="HTML_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="ta" value="tag: '$tag$'$END$" description="tag in block" toReformat="false" toShortenFQNames="true">
+    <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="PHP" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ta," value="tag: '$tag$',$END$" description="tag in block + comma" toReformat="false" toShortenFQNames="true">
+    <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="PHP" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="el" value="elem: '$elemName$'$END$" description="element in block" toReformat="false" toShortenFQNames="true">
+    <variable name="elemName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+      <option name="HTML" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="HAML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="SQL" value="false" />
+      <option name="HTML_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="mo" value="mods: {$modName$: '$modValue$'}$END$" description="mod in block" toReformat="false" toShortenFQNames="true">
+    <variable name="modName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="modValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="PHP" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="mo," value="mods: {$modName$: $modValue$},$END$" description="mod in block + comma" toReformat="false" toShortenFQNames="true">
+    <variable name="modName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="modValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="PHP" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="mods" value="mods: [{$modName1$: '$modValue1$'}, {$modName2$: '$modValue2$'}$END$]" description="mods in block" toReformat="false" toShortenFQNames="true">
+    <variable name="modName1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="modValue1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="modName2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="modValue2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="PHP" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="mods," value="mods: [{$modName1$: '$modValue1$'}, {$modName2$: '$modValue2$'}$END$]," description="mods in block + comma" toReformat="false" toShortenFQNames="true">
+    <variable name="modName1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="modValue1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="modName2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="modValue2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="PHP" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="at" value="attrs: {&#10;    $attrName$: '$attrValue$'&#10;}$END$" description="attr in block" toReformat="false" toShortenFQNames="true">
+    <variable name="attrName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="attrValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="PHP" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="at," value="attrs: {&#10;    $attrName$: '$attrValue$'&#10;},$END$" description="attr in block + comma" toReformat="false" toShortenFQNames="true">
+    <variable name="attrName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="attrValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+      <option name="HTML" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="HAML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="SQL" value="false" />
+      <option name="HTML_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="attrs" value="attrs: {&#10;    $attrName$: '$attrValue$',&#10;    $attrName$: '$attrValue$'$END$&#10;}" description="attrs in block" toReformat="false" toShortenFQNames="true">
+    <variable name="attrName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="attrValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="PHP" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="HAML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="HTML_TEXT" value="false" />
+      <option name="SQL" value="false" />
+    </context>
+  </template>
+  <template name="attrs," value="attrs: {&#10;    $attrName$: '$attrValue$',&#10;    $attrName$: '$attrValue$'$END$&#10;}," description="attrs in block + comma" toReformat="false" toShortenFQNames="true">
+    <variable name="attrName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="attrValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+      <option name="HTML" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="HAML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="SQL" value="false" />
+      <option name="HTML_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="jt" value="js: true$END$" description="js: true" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="false" />
+      <option name="HTML" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="HAML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="SQL" value="false" />
+      <option name="HTML_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="jt," value="js: true,$END$" description="js: true + comma" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="false" />
+      <option name="HTML" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="HAML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="SQL" value="false" />
+      <option name="HTML_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="jf," value="js: false,$END$" description="js: false + comma" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="false" />
+      <option name="HTML" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="HAML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="SQL" value="false" />
+      <option name="HTML_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="jf" value="js: false$END$" description="js: false" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="false" />
+      <option name="HTML" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="HAML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="SQL" value="false" />
+      <option name="HTML_TEXT" value="false" />
+    </context>
+  </template>
+</templateSet>
+
